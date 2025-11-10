@@ -42,6 +42,8 @@ $ git push origin main
 
 ****
 
-## 团队合作工作流 ![一种工作流](https://github.com/Atwelve12/Task/blob/4e1efab1d66e9cb9ddfebf6b1fdacd8f690205b9/photo/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-11-10%20174700.png)
+## 团队合作工作流
+
+![一种工作流](https://github.com/Atwelve12/Task/blob/4e1efab1d66e9cb9ddfebf6b1fdacd8f690205b9/photo/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-11-10%20174700.png)
 
 
