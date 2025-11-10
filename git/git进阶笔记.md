@@ -42,6 +42,14 @@ $ git push origin main
 
 > 上传完成
 
+```git
+$ git branch -d develop
+```
+
+> 删除分支
+> 
+> 可用 -D 强制删除
+
 ****
 
 ## 团队合作工作流1![屏幕截图 2025-11-10 174700](C:\Users\ppwqHU\Desktop\Task\photo\屏幕截图%202025-11-10%20174700.png)
@@ -75,11 +83,9 @@ git diff 9f7720326d0ef955348ce7693957f1f5b519f513
 
 
 ```git
-git reset --hard[commit id]
+git reset --hard 88cd16b249c8bbc6640072531ef77bc09a0e32fd
 //或
-git checkout [commit id]
+git checkout 88cd16b249c8bbc6640072531ef77bc09a0e32fd
 ```
 
 > 回溯代码
-
-
