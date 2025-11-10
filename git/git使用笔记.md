@@ -1,5 +1,31 @@
 # git个人仓库的使用
 
+1. 新建文件夹
+
+2. 创建本地仓库
+
+```git
+$ git init
+```
+
+```git
+$ git add abc.txt
+ 或
+$ git add .
+```
+
+
+
+```git
+$ git commit -m"note"
+```
+
+
+
+****
+
+# git个人远程仓库使用
+
 1. 添加远程仓库
 
 ```git
@@ -27,10 +53,10 @@ $ git remote add origin git@github.com:Atwelve12/Task.git
 > origin是常用的远程仓库名
 
 2. 修改你的代码,文件.
-
-
-
-
+   
+   
+   
+   
 
 3. 上传文件
 
@@ -70,22 +96,20 @@ $ git pull
 
 
 
-
-
 ****
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [^上传]: 需要提前绑定自己的SSHkey
-
-
-
-
-
-
-
-
-
-
-
-
-
-
