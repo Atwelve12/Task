@@ -1,6 +1,6 @@
 # HTML学习笔记
 
-[实践网页]()
+[实践网页](https://github.com/Atwelve12/Task/blob/f2e2da3758c379aec0f18e38013393dc81b5f470/FrontEnd/web/web.html)
 
 1. 用vscode新建htlm文件
 
