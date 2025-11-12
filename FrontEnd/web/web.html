@@ -9,11 +9,21 @@
             margin:  0;
             padding: 0;
             height: 100vh;
-            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
-            background-size: 100% 100%;
+            background: linear-gradient(90deg, #ff6b6b, #4ecd59, #45b7d1, #96ceb4);
+            background-size: 200% 200%;
             animation: gradientBG 1s ease infinite;
         }
-
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 0%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
         
     </style>
 </head>
