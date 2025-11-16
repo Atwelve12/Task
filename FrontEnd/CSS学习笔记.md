@@ -2,6 +2,137 @@
 
 ****
 
+## 一些CSS设置
+
+```css
+//定义全局变量
+:root {
+    --pink： #ff726b;
+    card-bg: rgba(255, 255, 255, 0.9);
+
+}
+body {
+    color: var(--pink);
+//使用变量，定义字体颜色
+}
+```
+
+```css
+rgba(红色, 绿色, 蓝色, 透明度)
+
+z-index:数值；
+/*控制元素在z轴上的堆叠顺序*/
+
+border-radius: 5px /*添加圆角*/
+
+margin: 25px 50px 75px 100px;
+/*上外边距是 25px
+右外边距是 50px
+下外边距是 75px
+左外边距是 100px*/
+
+box-shadow: 水平偏移 垂直偏移 模糊半径 扩散半径 颜色 内/外阴影;
+
+animation: name 15s infinite ease-in-out; /* name 动画时间 重复次数无限  慢速开始和结束*/
+```
+
+```css
+@keyframes name {
+
+}
+```
+
+****
+
+## @keyframes动画设置
+
+```css
+0%{
+
+}
+100%{
+    transform:  /*旋转*/
+}
+```
+
+```css
+animation-duration: 3s;
+animation-name:name;
+animation-timing-function: ease-in-out;
+animation-delay: 1s;
+animation-iteration-count: 3;
+animation-direction: alternate;
+```
+
+****
+
+## 悬停设置
+
+```css
+.name:hover {
+    /*悬停后的效果*/
+     transform: ;
+
+}
+```
+
+`transition: all 0.3s ease;`:设置过度效果
+
+`cursor: pointer;`让鼠标变成小手
+
+
+
+
+
+****
+
+
+
+## 添加卡片跳出效果
+
+`opacity: 0`:设置初始隐藏
+
+设置相对定位和绝对定位
+
+```css
+/* 初始状态：隐藏卡片 */
+.musiclist {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-20px);
+    transition: all 0.4s ease-in-out;
+}
+
+/* 悬停时显示卡片 */
+.photo-container:hover .musiclist {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+```
+
+
+
+****
+
+
+
+## 如何在网页添加图片
+
+```css
+<img src="你的图片地址.jpg" alt="图片描述">
+```
+
+
+
+
+
+
+
+
+
+****
+
 
 
 ## 渐变背景的一种实现方法
@@ -15,6 +146,7 @@
             height: 100vh;
             background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
             background-size: 400% 400%;
+          background-attachment: fixed;/*让背景固定*/
             animation: gradientBG 15s ease infinite;
         }
   ```
@@ -62,19 +194,15 @@
 ****
 
 * 
-
-
-
-
-
-```css
-.divname {
+  
+  ```css
+  .divname {
     padding: 50px;
     color: white;
     text-align: center;
     font-family: Arial, sans-serif;
-}
-```
+  }
+  ```
 
 > * `padding: 50px;` - 内边距，让内容有呼吸空间
 > 
@@ -87,6 +215,16 @@
 
 
 ****
+
+
+
+
+
+
+
+
+
+
 
 
 
