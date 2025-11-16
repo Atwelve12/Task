@@ -1,5 +1,30 @@
 # git进阶笔记
 
+****
+
+
+
+## 远程创建分支
+
+```git
+$ git branch -r develop
+```
+
+
+
+```git
+$ git push origin --delete develop
+//远程删除分支
+$ git branch -r
+//看查远程分支
+$ git branch -a
+//看查所有分支
+```
+
+****
+
+
+
 ## 创建分支
 
 ```git
@@ -91,3 +116,7 @@ git checkout 88cd16b249c8bbc6640072531ef77bc09a0e32fd
 ```
 
 > 回溯代码
+
+
+
+
