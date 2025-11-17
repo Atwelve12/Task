@@ -137,6 +137,29 @@
             border-radius: 5px;
             cursor: pointer;
         }
+        
+        .player {
+           position: absolute;
+            background-color: rgba(229, 240, 250, 0.63);
+            border-radius: 15px;
+            top: auto;
+            left: 105%;
+           padding: 0;
+           margin: 0;
+            z-index: 100;
+            box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-10px) translateY(-70px);;
+            transition: all 0.4s ease-in-out;
+         }
+
+        .song-list li:hover .player{
+              opacity: 1;
+            visibility: visible;
+            transform: translateX(0) translateY(-70px);
+        }
+
         .back1 {
             z-index: -1;
             bottom: 10%;
@@ -227,7 +250,7 @@
         }
       }
 
-       
+        
 
        
 
@@ -249,17 +272,84 @@
 
     <div class="music">
         <div class="musicdiv">
+            
             <img class="photo"
             src="https://i0.hdslb.com/bfs/article/409cbccbd968c907067c091211c5808df7e7a0cd.jpg" alt="1">
             <div class="musiclist">
                     <ul class="song-list">
-                    <li>夏陰、ピアノを弾く</li>
-                    <li>カトレア</li>
-                    <li>言って。</li>
-                    <li>あの夏に咲け</li>
-                    <li>飛行</li>
-                    <li>靴の花火</li>
-                    <li>雲と幽霊</li>
+                    
+                    <li>夏陰、ピアノを弾く
+                        <div class="player">
+                        <iframe 
+                            frameborder="no" 
+                            marginwidth="0" 
+                            marginheight="0" 
+                            width=300
+                            height=86 
+                            src="https://music.163.com/outchain/player?type=2&id=487527978&auto=1&height=66">
+                        </iframe>
+                        </div>
+                    </li>
+                    <li>カトレア<div class="player">
+                        <iframe 
+                            frameborder="no" 
+                            marginwidth="0" 
+                            marginheight="0" 
+                            width=300
+                            height=86 
+                            src="https://music.163.com/outchain/player?type=2&id=487527979&auto=1&height=66">
+                        </iframe>
+                        </div></li>
+                    <li>言って。<div class="player">
+                        <iframe 
+                            frameborder="no" 
+                            marginwidth="0" 
+                            marginheight="0" 
+                            width=300
+                            height=86 
+                            src="https://music.163.com/outchain/player?type=2&id=487527980&auto=1&height=66">
+                        </iframe>
+                        </div></li>
+                    <li>あの夏に咲け<div class="player">
+                        <iframe 
+                            frameborder="no" 
+                            marginwidth="0" 
+                            marginheight="0" 
+                            width=300
+                            height=86 
+                            src="https://music.163.com/outchain/player?type=2&id=487527981&auto=1&height=66">
+                        </iframe>
+                        </div></li>
+                    <li>飛行<div class="player">
+                        <iframe 
+                            frameborder="no" 
+                            marginwidth="0" 
+                            marginheight="0" 
+                            width=300
+                            height=86 
+                            src="https://music.163.com/outchain/player?type=2&id=487527982&auto=1&height=66">
+                        </iframe>
+                        </div></li>
+                    <li>靴の花火<div class="player">
+                        <iframe 
+                            frameborder="no" 
+                            marginwidth="0" 
+                            marginheight="0" 
+                            width=300
+                            height=86 
+                            src="https://music.163.com/outchain/player?type=2&id=487527983&auto=1&height=66">
+                        </iframe>
+                        </div></li>
+                    <li>雲と幽霊<div class="player">
+                        <iframe 
+                            frameborder="no" 
+                            marginwidth="0" 
+                            marginheight="0" 
+                            width=300
+                            height=86 
+                            src="https://music.163.com/outchain/player?type=2&id=487527984&auto=1&height=66">
+                        </iframe>
+                        </div></li>
             </div>
         </div>
         <span class="album">《夏草が邪魔をする（夏草成为了阻碍）》</span>
@@ -271,15 +361,33 @@
             src="https://y.gtimg.cn/music/photo_new/T062M000001Sv8G42XLbvY.jpg?max_age=0" alt="1">
             <div class="musiclist">
                     <ul class="song-list">
-                    <li>前世</li>
-                    <li>負け犬にアンコールはいらない</li>
-                    <li>爆弾魔</li>
-                    <li>ヒッチコック</li>
-                    <li>落下</li>
-                    <li>準透明少年</li>
-                    <li>ただ君に晴れ</li>
-                    <li>冬眠</li>
-                    <li>夏、バス停、君を待つ</li>
+                    <li>前世<div class="player">
+                        
+                        </div></li>
+                    <li>負け犬にアンコールはいらない<div class="player">
+                        
+                        </div></li>
+                    <li>爆弾魔<div class="player">
+                        
+                        </div></li>
+                    <li>ヒッチコック<div class="player">
+                       
+                        </div></li>
+                    <li>落下<div class="player">
+                        
+                        </div></li>
+                    <li>準透明少年<div class="player">
+                        
+                        </div></li>
+                    <li>ただ君に晴れ<div class="player">
+                        
+                        </div></li>
+                    <li>冬眠<div class="player">
+                        
+                        </div></li>
+                    <li>夏、バス停、君を待つ<div class="player">
+                        
+                        </div></li>
             </div>
         </div>
         <span class="album">《負け犬にアンコールはいらない》</span>
@@ -292,20 +400,49 @@
            
             <div class="musiclist">
                     <ul class="song-list">
-                    <li>8/31</li>
-                    <li>藍二乗</li>
-                    <li>八月、某、月明かり</li>
-                    <li>詩書きとコーヒー</li>
-                    <li>7/13</li>
-                    <li>踊ろうぜ</li>
-                    <li>六月は雨上がりの街を書く</li>
-                    <li>五月は花緑青の窓辺から</li>
-                    <li>夜紛い</li>
-                    <li>5/6</li>
-                    <li>パレード</li>
-                    <li>エルマ</li>
-                     <li>4/10</li>
-                      <li>だから僕は音楽を辞めた</li>
+                    <li>8/31<div class="player">
+                       
+                        </div></li>
+                    <li>藍二乗<div class="player">
+                        
+                        </div></li>
+                    <li>八月、某、月明かり<div class="player">
+                        
+                        </div></li>
+                    <li>詩書きとコーヒー<div class="player">
+                        
+                        
+                        </div></li>
+                    <li>7/13<div class="player">
+                        
+                        </div></li>
+                    <li>踊ろうぜ<div class="player">
+                        
+                        </div></li>
+                    <li>六月は雨上がりの街を書く<div class="player">
+                        
+                        </div></li>
+                    <li>五月は花緑青の窓辺から<div class="player">
+                        
+                        </div></li>
+                    <li>夜紛い<div class="player">
+                        
+                        </div></li>
+                    <li>5/6<div class="player">
+                        
+                        </div></li>
+                    <li>パレード<div class="player">
+                        
+                        </div></li>
+                    <li>エルマ<div class="player">
+                        
+                        </div></li>
+                     <li>4/10<div class="player">
+                        
+                        </div></li>
+                      <li>だから僕は音楽を辞めた<div class="player">
+                        
+                        </div></li>
             </div>
         </div>
         <span class="album">《だから僕は音楽を辞めた（所以我放弃了音乐）》</span>
@@ -317,20 +454,48 @@
             src="https://i0.hdslb.com/bfs/article/c12c89ed9d721f799f0df302114f656f0f520456.jpg" alt="1">
             <div class="musiclist">
                     <ul class="song-list">
-                    <li>車窓</li>
-                    <li>憂一乗</li>
-                    <li>夕凪、某、花惑い</li>
-                    <li>雨とカプチーノ</li>
-                    <li>湖の街</li>
-                    <li>神様のダンス</li>
-                    <li>雨晴るる</li>
-                    <li>歩く</li>
-                    <li>心に穴が空いた</li>
-                    <li>森の教会</li>
-                    <li>声</li>
-                    <li>エイミー</li>
-                    <li>海底、月明かり</li>
-                    <li>ノーチラス</li>
+                    <li>車窓<div class="player">
+                        
+                        </div></li>
+                    <li>憂一乗<div class="player">
+                        
+                        </div></li>
+                    <li>夕凪、某、花惑い<div class="player">
+                        
+                        </div></li>
+                    <li>雨とカプチーノ<div class="player">
+                        
+                        </div></li>
+                    <li>湖の街<div class="player">
+                        
+                        </div></li>
+                    <li>神様のダンス<div class="player">
+                        
+                        </div></li>
+                    <li>雨晴るる<div class="player">
+                        
+                        </div></li>
+                    <li>歩く<div class="player">
+                        
+                        </div></li>
+                    <li>心に穴が空いた<div class="player">
+                        
+                        </div></li>
+                    <li>森の教会<div class="player">
+                        
+                        </div></li>
+                    <li>声<div class="player">
+                        
+                        </div></li>
+                    <li>エイミー<div class="player">
+                        
+                        </div></li>
+                    <li>海底、月明かり<div class="player">
+                        
+                        </div></li>
+                    <li>ノーチラス<div class="player">
+                        
+                        </div></li>
             </div>
         </div>
         <span class="album">《Elma》</span>
@@ -342,20 +507,48 @@
             src="https://i0.hdslb.com/bfs/article/71f4c01e327a0490af53438a0d3d6708ac62335d.jpg" alt="1">
             <div class="musiclist">
                     <ul class="song-list">
-                    <li>音楽泥棒の自白</li>
-                    <li>昼鳶</li>
-                    <li>春ひさぎ</li>
-                    <li>爆弾魔 (Re-Recording)</li>
-                    <li>青年期、空き巣</li>
-                    <li>レプリカント</li>
-                    <li>花人局</li>
-                    <li>朱夏期、音楽泥棒</li>
-                    <li>盗作</li>
-                    <li>思想犯</li>
-                    <li>逃亡</li>
-                    <li>幼年期、思い出の中</li>
-                    <li>夜行</li>
-                    <li>花に亡霊</li>
+                    <li>音楽泥棒の自白<div class="player">
+                        
+                        </div></li>
+                    <li>昼鳶<div class="player">
+                        
+                        </div></li>
+                    <li>春ひさぎ<div class="player">
+                        
+                        </div></li>
+                    <li>爆弾魔 (Re-Recording)<div class="player">
+                        
+                        </div></li>
+                    <li>青年期、空き巣<div class="player">
+                        
+                        </div></li>
+                    <li>レプリカント<div class="player">
+                        
+                        </div></li>
+                    <li>花人局<div class="player">
+                        
+                        </div></li>
+                    <li>朱夏期、音楽泥棒<div class="player">
+                        
+                        </div></li>
+                    <li>盗作<div class="player">
+                        
+                        </div></li>
+                    <li>思想犯<div class="player">
+                        
+                        </div></li>
+                    <li>逃亡<div class="player">
+                        
+                        </div></li>
+                    <li>幼年期、思い出の中<div class="player">
+                        
+                        </div></li>
+                    <li>夜行<div class="player">
+                        
+                        </div></li>
+                    <li>花に亡霊<div class="player">
+                        
+                        </div></li>
             </div>
         </div>
         <span class="album">《盗作》</span>
@@ -369,11 +562,21 @@
             src="https://y.gtimg.cn/music/photo_new/T062M000003UwwBK0ExPcx.jpg?max_age=0" alt="1">
             <div class="musiclist">
                     <ul class="song-list">
-                    <li>強盗と花束</li>
-                    <li>春泥棒</li>
-                    <li>Creation</li>
-                    <li>風を食む</li>
-                    <li>嘘月</li>
+                    <li>強盗と花束<div class="player">
+                        
+                        </div></li>
+                    <li>春泥棒<div class="player">
+                        
+                        </div></li>
+                    <li>Creation<div class="player">
+                        
+                        </div></li>
+                    <li>風を食む<div class="player">
+                        
+                        </div></li>
+                    <li>嘘月<div class="player">
+                        
+                        </div></li>
             </div>
         </div>
         <span class="album">《创作》</span>
@@ -385,3 +588,5 @@
     <div class="back4"></div>
     <div class="back5"></div>
     <div class="back6"></div>
+
+    
